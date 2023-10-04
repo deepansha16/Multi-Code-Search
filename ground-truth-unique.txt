@@ -1,0 +1,39 @@
+AST Visitor that looks for specific API usage without editing anything
+PastaAnalyzeVisitor
+./tensorflow/tensorflow/tools/compatibility/ast_edits.py
+
+Convert a TensorShape to a list
+TensorShapeProtoToList
+./tensorflow/tensorflow/python/framework/tensor_util.py
+
+The most basic RNN cell
+BasicRNNCell
+./tensorflow/tensorflow/python/keras/layers/legacy_rnn/rnn_cell_impl.py
+
+Reverses variable length slices
+reverse_sequence
+./tensorflow/tensorflow/python/ops/array_ops.py
+
+Gather gpu device info
+gather_gpu_devices
+./tensorflow/tensorflow/tools/test/gpu_info_lib.py
+
+Extracts a strided slice of a tensor generalized python array indexing
+strided_slice
+./tensorflow/tensorflow/python/ops/array_ops.py
+
+Represents the shape of a Tensor
+TensorShape
+./tensorflow/tensorflow/python/framework/tensor_shape.py
+
+Decorator to define a function with a custom gradient
+custom_gradient
+./tensorflow/tensorflow/python/ops/custom_gradient.py
+
+Layer normalization layer
+LayerNormalization
+./tensorflow/tensorflow/python/keras/layers/normalization.py
+
+loss function
+get_loss_function
+./tensorflow/tensorflow/python/keras/engine/training_utils.py
