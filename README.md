@@ -20,7 +20,7 @@ Create a corpus from the code entity names and comments:
 
 1. Split entity names by camel-case and underscore (e.g., go_to_myHome -> [go, to, my, home]).
 
-2. Filter stopwords = {test, tests, main, this,..} (enlarge this list with appropriate candidates).
+2. Filter stopwords = {test, tests, main, this,..} (enlarge list with appropriate candidates).
 
 3. Convert all words to lowercase.
 
